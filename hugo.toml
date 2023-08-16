@@ -1,4 +1,0 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = "Nancy's Note"
-theme = 'ananke'
