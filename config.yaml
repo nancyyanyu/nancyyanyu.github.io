@@ -3,6 +3,8 @@ title: Nancy's Notebook
 paginate: 5
 theme: PaperMod
 
+
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -129,3 +131,4 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+

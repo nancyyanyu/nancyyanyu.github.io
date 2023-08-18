@@ -10,6 +10,16 @@
       <link>https://nancyyanyu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://nancyyanyu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 15 Aug 2023 21:39:56 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning</title>
+      <link>https://nancyyanyu.github.io/categories/machine-learning/</link>
+      <pubDate>Tue, 15 Aug 2023 21:39:56 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

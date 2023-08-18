@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Nancy&#39;s Notebook</title>
-    <link>https://nancyyanyu.github.io/</link>
-    <description>Recent content on Nancy&#39;s Notebook</description>
+    <title>Posts on Nancy&#39;s Notebook</title>
+    <link>https://nancyyanyu.github.io/posts/</link>
+    <description>Recent content in Posts on Nancy&#39;s Notebook</description>
     <image>
       <title>Nancy&#39;s Notebook</title>
       <url>https://nancyyanyu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 21:39:56 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 21:39:56 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Paper Note: BERT</title>
       <link>https://nancyyanyu.github.io/posts/paper-bert/</link>
@@ -22,8 +22,6 @@
 &lt;p&gt;BERT is designed to &lt;strong&gt;pre-train deep bidirectional representations from unlabeled text&lt;/strong&gt; by &lt;strong&gt;jointly conditioning on both left and right context in all layers&lt;/strong&gt;. As a result, the &lt;strong&gt;pre-trained BERT model&lt;/strong&gt; can be &lt;strong&gt;fine-tuned with just one additional output layer&lt;/strong&gt; to create state-of-the-art models for a wide range of tasks.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
-    
-    
     
   </channel>
 </rss>
