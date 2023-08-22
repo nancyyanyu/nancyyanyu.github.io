@@ -11,7 +11,62 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 21:39:56 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 22:36:17 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Note: CLIP</title>
+      <link>https://nancyyanyu.github.io/posts/paper-clip/</link>
+      <pubDate>Tue, 15 Aug 2023 22:36:17 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-clip/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The simple pre-training task of &lt;strong&gt;predicting which caption goes with which image&lt;/strong&gt; is an efficient and scalable way to learn SOTA image representations from scratch. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling &lt;strong&gt;zero-shot transfer&lt;/strong&gt; of the model to downstream tasks.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Note: Swin Transformer</title>
+      <link>https://nancyyanyu.github.io/posts/paper-swintransformer/</link>
+      <pubDate>Tue, 15 Aug 2023 22:20:38 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-swintransformer/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A new ViT &lt;em&gt;whose representation is computed with &lt;strong&gt;S&lt;/strong&gt;hifted &lt;strong&gt;win&lt;/strong&gt;dows&lt;/em&gt;*!***&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Note: Masked autoencoders(MAE) (very short)</title>
+      <link>https://nancyyanyu.github.io/posts/paper-mae/</link>
+      <pubDate>Tue, 15 Aug 2023 22:19:31 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-mae/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Masked autoencoders (MAE)&lt;/strong&gt; are scalable &lt;strong&gt;self-supervised&lt;/strong&gt; learners for &lt;strong&gt;computer vision&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Note: ViT</title>
+      <link>https://nancyyanyu.github.io/posts/paper-vit/</link>
+      <pubDate>Tue, 15 Aug 2023 22:08:51 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-vit/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;ViT &lt;em&gt;&lt;strong&gt;applies a standard Transformer directly to images&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Note: Attention is All You Need</title>
+      <link>https://nancyyanyu.github.io/posts/paper-transformer/</link>
+      <pubDate>Tue, 15 Aug 2023 21:54:35 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-transformer/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The Transformer, the first sequence transduction model based entirely on attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
     <item>
       <title>Paper Note: BERT</title>
       <link>https://nancyyanyu.github.io/posts/paper-bert/</link>
@@ -20,6 +75,57 @@
       <guid>https://nancyyanyu.github.io/posts/paper-bert/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;BERT is designed to &lt;strong&gt;pre-train deep bidirectional representations from unlabeled text&lt;/strong&gt; by &lt;strong&gt;jointly conditioning on both left and right context in all layers&lt;/strong&gt;. As a result, the &lt;strong&gt;pre-trained BERT model&lt;/strong&gt; can be &lt;strong&gt;fine-tuned with just one additional output layer&lt;/strong&gt; to create state-of-the-art models for a wide range of tasks.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>A/B Testing Final Project</title>
+      <link>https://nancyyanyu.github.io/posts/ab_testing_final_project/</link>
+      <pubDate>Fri, 03 Jul 2020 14:28:54 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ab_testing_final_project/</guid>
+      <description>&lt;p&gt;Implementation of Udacity A/B Testing course final project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Notes of Udacity A/B Testing</title>
+      <link>https://nancyyanyu.github.io/posts/ab_testing_udacity/</link>
+      <pubDate>Fri, 03 Jul 2020 14:24:21 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ab_testing_udacity/</guid>
+      <description>&lt;p&gt;Study note of Udacity &lt;a href=&#34;https://classroom.udacity.com/courses/ud257&#34;&gt;A/B Testing course&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spark SQL &amp; DataFrame, SparkETL</title>
+      <link>https://nancyyanyu.github.io/posts/apache_pyspark-sql-and-dataframe/</link>
+      <pubDate>Tue, 09 Jul 2019 14:49:45 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/apache_pyspark-sql-and-dataframe/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Pyspark code of &lt;a href=&#34;https://www.coursera.org/learn/big-data-essentials&#34;&gt;Big Data Essentials: HDFS, MapReduce and Spark RDD&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Apache Spark: Advanced Topics</title>
+      <link>https://nancyyanyu.github.io/posts/apache_spark-advanced_topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/apache_spark-advanced_topics/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Study note of &lt;a href=&#34;https://www.coursera.org/learn/big-data-essentials&#34;&gt;Big Data Essentials: HDFS, MapReduce and Spark RDD&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Apache Spark: Basic Concepts</title>
+      <link>https://nancyyanyu.github.io/posts/apache_spark-basic_concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/apache_spark-basic_concepts/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Study note of &lt;a href=&#34;https://www.coursera.org/learn/big-data-essentials&#34;&gt;Big Data Essentials: HDFS, MapReduce and Spark RDD&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     

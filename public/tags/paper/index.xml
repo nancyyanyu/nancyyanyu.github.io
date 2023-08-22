@@ -11,7 +11,62 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 21:39:56 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 22:36:17 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Note: CLIP</title>
+      <link>https://nancyyanyu.github.io/posts/paper-clip/</link>
+      <pubDate>Tue, 15 Aug 2023 22:36:17 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-clip/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The simple pre-training task of &lt;strong&gt;predicting which caption goes with which image&lt;/strong&gt; is an efficient and scalable way to learn SOTA image representations from scratch. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling &lt;strong&gt;zero-shot transfer&lt;/strong&gt; of the model to downstream tasks.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Note: Swin Transformer</title>
+      <link>https://nancyyanyu.github.io/posts/paper-swintransformer/</link>
+      <pubDate>Tue, 15 Aug 2023 22:20:38 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-swintransformer/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A new ViT &lt;em&gt;whose representation is computed with &lt;strong&gt;S&lt;/strong&gt;hifted &lt;strong&gt;win&lt;/strong&gt;dows&lt;/em&gt;*!***&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Note: Masked autoencoders(MAE) (very short)</title>
+      <link>https://nancyyanyu.github.io/posts/paper-mae/</link>
+      <pubDate>Tue, 15 Aug 2023 22:19:31 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-mae/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Masked autoencoders (MAE)&lt;/strong&gt; are scalable &lt;strong&gt;self-supervised&lt;/strong&gt; learners for &lt;strong&gt;computer vision&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Note: ViT</title>
+      <link>https://nancyyanyu.github.io/posts/paper-vit/</link>
+      <pubDate>Tue, 15 Aug 2023 22:08:51 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-vit/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;ViT &lt;em&gt;&lt;strong&gt;applies a standard Transformer directly to images&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Note: Attention is All You Need</title>
+      <link>https://nancyyanyu.github.io/posts/paper-transformer/</link>
+      <pubDate>Tue, 15 Aug 2023 21:54:35 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-transformer/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The Transformer, the first sequence transduction model based entirely on attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
     <item>
       <title>Paper Note: BERT</title>
       <link>https://nancyyanyu.github.io/posts/paper-bert/</link>

@@ -18,7 +18,7 @@ comments: true
 
 Awesome explanation: [Li Hung-yi](https://www.youtube.com/watch?v=UYPa347-DdE&ab_channel=Hung-yiLee), [Li Mu](https://www.bilibili.com/video/BV1PL411M7eQ/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=d413f9c111fd65e9e19a68a23199ac36) 
 
-<img src="./Untitled.png" width="500" />
+{{< imgproc Untitled Resize "500x" />}}
 
 
 

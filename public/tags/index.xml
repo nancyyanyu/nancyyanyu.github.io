@@ -11,11 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 21:39:56 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 22:36:17 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NLP</title>
       <link>https://nancyyanyu.github.io/tags/nlp/</link>
-      <pubDate>Tue, 15 Aug 2023 21:39:56 +0000</pubDate>
+      <pubDate>Tue, 15 Aug 2023 22:36:17 +0000</pubDate>
       
       <guid>https://nancyyanyu.github.io/tags/nlp/</guid>
       <description></description>
@@ -24,9 +24,45 @@
     <item>
       <title>Paper</title>
       <link>https://nancyyanyu.github.io/tags/paper/</link>
-      <pubDate>Tue, 15 Aug 2023 21:39:56 +0000</pubDate>
+      <pubDate>Tue, 15 Aug 2023 22:36:17 +0000</pubDate>
       
       <guid>https://nancyyanyu.github.io/tags/paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ab-testing</title>
+      <link>https://nancyyanyu.github.io/tags/ab-testing/</link>
+      <pubDate>Fri, 03 Jul 2020 14:28:54 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/tags/ab-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ETL</title>
+      <link>https://nancyyanyu.github.io/tags/etl/</link>
+      <pubDate>Tue, 09 Jul 2019 14:49:45 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/tags/etl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spark</title>
+      <link>https://nancyyanyu.github.io/tags/spark/</link>
+      <pubDate>Tue, 09 Jul 2019 14:49:45 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/tags/spark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>https://nancyyanyu.github.io/tags/sql/</link>
+      <pubDate>Tue, 09 Jul 2019 14:49:45 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/tags/sql/</guid>
       <description></description>
     </item>
     

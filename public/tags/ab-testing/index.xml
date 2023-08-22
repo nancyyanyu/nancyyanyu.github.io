@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ab-testing on Nancy&#39;s Notebook</title>
+    <link>https://nancyyanyu.github.io/tags/ab-testing/</link>
+    <description>Recent content in ab-testing on Nancy&#39;s Notebook</description>
+    <image>
+      <title>Nancy&#39;s Notebook</title>
+      <url>https://nancyyanyu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://nancyyanyu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Jul 2020 14:28:54 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/tags/ab-testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A/B Testing Final Project</title>
+      <link>https://nancyyanyu.github.io/posts/ab_testing_final_project/</link>
+      <pubDate>Fri, 03 Jul 2020 14:28:54 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ab_testing_final_project/</guid>
+      <description>&lt;p&gt;Implementation of Udacity A/B Testing course final project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Notes of Udacity A/B Testing</title>
+      <link>https://nancyyanyu.github.io/posts/ab_testing_udacity/</link>
+      <pubDate>Fri, 03 Jul 2020 14:24:21 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ab_testing_udacity/</guid>
+      <description>&lt;p&gt;Study note of Udacity &lt;a href=&#34;https://classroom.udacity.com/courses/ud257&#34;&gt;A/B Testing course&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
