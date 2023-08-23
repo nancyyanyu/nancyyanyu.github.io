@@ -129,5 +129,81 @@
 &lt;/blockquote&gt;</description>
     </item>
     
+    <item>
+      <title>Study Note: Assessing Model Accuracy</title>
+      <link>https://nancyyanyu.github.io/posts/ml-assessing-model-accuracy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-assessing-model-accuracy/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;MSE/Bias-Variance Trade-Off/K-Nearest Neighbors&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Bias, Variance and Model Complexity</title>
+      <link>https://nancyyanyu.github.io/posts/ml-bias-variance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-bias-variance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study Note: Clustering</title>
+      <link>https://nancyyanyu.github.io/posts/ml-clustering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-clustering/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;K-Means Clustering/Hierarchical Clustering Algorithm&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Comparing Logistic Regression, LDA, QDA, and KNN</title>
+      <link>https://nancyyanyu.github.io/posts/ml-comparing-logistic-regression-lda-qda-and-knn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-comparing-logistic-regression-lda-qda-and-knn/</guid>
+      <description>&lt;h2 id=&#34;logistic-regression-and-lda-methods-are-closely-connected&#34;&gt;Logistic regression and LDA methods are closely connected.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Setting&lt;/strong&gt;: Consider the two-class setting with \(p = 1\) predictor, and let \(p_1(x)\) and \(p_2(x) = 1−p_1(x)\) be the probabilities that the observation \(X = x\) belongs to class 1 and class 2, respectively.&lt;/p&gt;
+&lt;p&gt;In LDA, from&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align} p_k(x)=\frac{\pi_k \frac{1}{\sqrt{2\pi}\sigma}\exp{\left( -\frac{1}{2\sigma^2}(x-\mu_k)^2 \right)}}{\sum_{l=1}^K\pi_l\frac{1}{\sqrt{2\pi}\sigma}\exp{\left( -\frac{1}{2\sigma^2}(x-\mu_l)^2 \right)}} \end{align}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align} \delta_k(x)=x\frac{\mu_k}{\sigma^2}-\frac{\mu_k^2}{2\sigma^2}+\log(\pi_k) \end{align}
+$$
+The &lt;strong&gt;log odds&lt;/strong&gt; is given by&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align}\log{\frac{p_1(x)}{1-p_1(x)}}=\log{\frac{p_1(x)}{p_2(x)}}=c_0+c_1x \end{align}
+$$
+where c0 and c1 are functions of μ1, μ2, and σ2.&lt;/p&gt;
+&lt;p&gt;In Logistic Regression,&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align} \log{\frac{p_1}{1-p_1}}=\beta_0+\beta_1x \end{align}
+$$&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Dimension Reduction - PCA, PCR</title>
+      <link>https://nancyyanyu.github.io/posts/ml-dimension_reduction-pca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-dimension_reduction-pca/</guid>
+      <description>&lt;h1 id=&#34;dimension-reduction-methods&#34;&gt;Dimension Reduction Methods&lt;/h1&gt;
+&lt;p&gt;Subset selection and shrinkage methods all use the original predictors, X1,X2, . . . , Xp.&lt;/p&gt;
+&lt;p&gt;Dimension Reduction Methods &lt;em&gt;&lt;strong&gt;transform&lt;/strong&gt;&lt;/em&gt; the predictors and then fit a least
+squares model using the transformed variables.&lt;/p&gt;
+&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
+&lt;p&gt;Let $Z_1,Z_2, . . . ,Z_M$ represent $M &amp;lt; p$ linear combinations of our original $p$ predictors. That is,&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align}
+Z_m=\sum_{j=1}^p\phi_{jm}X_j
+\end{align}
+$$&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
