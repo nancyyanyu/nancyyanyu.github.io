@@ -38,9 +38,6 @@
     <loc>https://nancyyanyu.github.io/posts/paper-transformer/</loc>
     <lastmod>2023-08-15T21:54:35+00:00</lastmod>
   </url><url>
-    <loc>https://nancyyanyu.github.io/posts/paper-bert/</loc>
-    <lastmod>2023-08-15T21:39:56+00:00</lastmod>
-  </url><url>
     <loc>https://nancyyanyu.github.io/posts/ab_testing_final_project/</loc>
     <lastmod>2020-07-03T14:28:54+00:00</lastmod>
   </url><url>
@@ -68,17 +65,36 @@
     <loc>https://nancyyanyu.github.io/tags/sql/</loc>
     <lastmod>2019-07-09T14:49:45+00:00</lastmod>
   </url><url>
+    <loc>https://nancyyanyu.github.io/tags/linear-regression/</loc>
+    <lastmod>2019-06-07T00:00:13+00:00</lastmod>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/tags/regression/</loc>
+    <lastmod>2019-06-07T00:00:13+00:00</lastmod>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/posts/ml-potential_problems/</loc>
+    <lastmod>2019-06-07T00:00:13+00:00</lastmod>
+  </url><url>
     <loc>https://nancyyanyu.github.io/posts/apache_spark-advanced_topics/</loc>
   </url><url>
     <loc>https://nancyyanyu.github.io/posts/apache_spark-basic_concepts/</loc>
   </url><url>
     <loc>https://nancyyanyu.github.io/archives/</loc>
   </url><url>
+    <loc>https://nancyyanyu.github.io/tags/classification/</loc>
+  </url><url>
     <loc>https://nancyyanyu.github.io/tags/clustering/</loc>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/tags/cross-validation/</loc>
   </url><url>
     <loc>https://nancyyanyu.github.io/tags/dimension-reduction/</loc>
   </url><url>
+    <loc>https://nancyyanyu.github.io/tags/lda/</loc>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/tags/logistic-regression/</loc>
+  </url><url>
     <loc>https://nancyyanyu.github.io/tags/model-assessment/</loc>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/tags/model-evaluation/</loc>
   </url><url>
     <loc>https://nancyyanyu.github.io/tags/model-selection/</loc>
   </url><url>
@@ -95,6 +111,20 @@
     <loc>https://nancyyanyu.github.io/posts/ml-comparing-logistic-regression-lda-qda-and-knn/</loc>
   </url><url>
     <loc>https://nancyyanyu.github.io/posts/ml-dimension_reduction-pca/</loc>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/posts/ml-linear_discriminant_analysis/ml-linear_discriminant_analysis/</loc>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/posts/ml-linear_regression_models/</loc>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/posts/ml-logistic_regression/</loc>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/posts/ml-model-selection/</loc>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/posts/ml-resampling-methods-cross-validation-bootstrap/</loc>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/posts/ml-svm/</loc>
+  </url><url>
+    <loc>https://nancyyanyu.github.io/tags/svm/</loc>
   </url><url>
     <loc>https://nancyyanyu.github.io/tags/unsupervised/</loc>
   </url>

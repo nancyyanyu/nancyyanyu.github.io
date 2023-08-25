@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linear Regression on Nancy&#39;s Notebook</title>
+    <link>https://nancyyanyu.github.io/tags/linear-regression/</link>
+    <description>Recent content in Linear Regression on Nancy&#39;s Notebook</description>
+    <image>
+      <title>Nancy&#39;s Notebook</title>
+      <url>https://nancyyanyu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://nancyyanyu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Jun 2019 00:00:13 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/tags/linear-regression/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Study Note: Linear Regression Part II - Potential Problems</title>
+      <link>https://nancyyanyu.github.io/posts/ml-potential_problems/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:13 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-potential_problems/</guid>
+      <description>&lt;h1 id=&#34;qualitative-predictors&#34;&gt;Qualitative Predictors&lt;/h1&gt;
+&lt;h2 id=&#34;predictors-with-only-two-levels&#34;&gt;Predictors with Only Two Levels&lt;/h2&gt;
+&lt;p&gt;Suppose that we wish to investigate differences in credit card balance between
+males and females, ignoring the other variables for the moment. If a
+qualitative predictor (also known as a &lt;strong&gt;factor&lt;/strong&gt;) only has two &lt;strong&gt;levels&lt;/strong&gt;, or possible values, then incorporating it into a regression model is very simple. We simply create an indicator or &lt;strong&gt;dummy variable&lt;/strong&gt; that takes on two possible numerical values.
+
+
+
+
+  
+
+&lt;figure &gt;
+  &lt;img style=&#34;max-width: 100%; width: auto; height: auto;&#34; src=&#34;https://nancyyanyu.github.io/posts/ml-potential_problems/18_hu1d6561f500ae721a7ec01a6f000b787f_275828_300x0_resize_box_3.png&#34; width=&#34;300&#34; height=&#34;208&#34;&gt;
+  &lt;figcaption&gt;
+  &lt;small&gt;
+    
+  &lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;and use this variable as a predictor in the regression equation. This results
+in the model
+
+
+
+
+  
+
+&lt;figure &gt;
+  &lt;img style=&#34;max-width: 100%; width: auto; height: auto;&#34; src=&#34;https://nancyyanyu.github.io/posts/ml-potential_problems/19_hua06852bdb939fc8b72c96de7080965a3_222927_600x0_resize_box_3.png&#34; width=&#34;600&#34; height=&#34;551&#34;&gt;
+  &lt;figcaption&gt;
+  &lt;small&gt;
+    
+  &lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Linear Regression Part I - Linear Regression Models</title>
+      <link>https://nancyyanyu.github.io/posts/ml-linear_regression_models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-linear_regression_models/</guid>
+      <description>&lt;h1 id=&#34;simple-linear-regression-models&#34;&gt;Simple Linear Regression Models&lt;/h1&gt;
+&lt;h2 id=&#34;linear-regression-model&#34;&gt;Linear Regression Model&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Form of the linear regression model: &lt;em&gt;$y=\beta_{0}+\beta_{1}X+\epsilon$&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Training data: ($x_1$,$y_1$) &amp;hellip; ($x_N$,$y_N$). Each $x_{i} =(x_{i1},x_{i2},&amp;hellip;,x_{ip})^{T}$ is a vector of feature measurements for the $i$-th case.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Goal: estimate the parameters $β$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Estimation method: &lt;strong&gt;Least Squares&lt;/strong&gt;, we pick the coeﬃcients $β =(β_0,β_1,&amp;hellip;,β_p)^{T}$ to minimize the &lt;strong&gt;residual sum of squares&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Assumptions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Observations $y_i$ are uncorrelated and have constant variance $\sigma^2$;&lt;/li&gt;
+&lt;li&gt;$x_i$ are ﬁxed (non random)&lt;/li&gt;
+&lt;li&gt;The regression function $E(Y |X)$ is linear, or the linear model is a reasonable approximation.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

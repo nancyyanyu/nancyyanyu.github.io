@@ -1,6 +1,6 @@
 ---
 title: "Study Note: Assessing Model Accuracy"
-date: '2019/06/17 00:00:19'
+date: 2019-06-17 14:49:45
 categories: Machine Learning
 math: true
 tags: 

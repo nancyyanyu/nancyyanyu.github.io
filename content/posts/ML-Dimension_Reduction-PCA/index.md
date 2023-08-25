@@ -1,6 +1,6 @@
 ---
 title: "Study Note: Dimension Reduction - PCA, PCR"
-date: 2019/06/14 00:00:35
+date: 2019-06-14 14:49:45
 categories: Machine Learning
 math: true
 tags: 

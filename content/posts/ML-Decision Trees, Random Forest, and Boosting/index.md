@@ -1,6 +1,6 @@
 ---
 title: "Study Note: Decision Trees, Random Forest, and Boosting"
-date: 2019/06/15 00:00:38
+date: 2019-06-15 14:49:45
 categories: Machine Learning
 math: true
 comments: true

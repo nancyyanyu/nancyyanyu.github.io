@@ -1,6 +1,6 @@
 ---
 title: "Study Note: Bias, Variance and Model Complexity"
-date: '2019/06/08 00:00:16'
+date: 2019-06-08 14:49:45
 categories: Machine Learning
 math: true
 tags:

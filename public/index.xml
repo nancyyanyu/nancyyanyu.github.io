@@ -68,17 +68,6 @@
     </item>
     
     <item>
-      <title>Paper Note: BERT</title>
-      <link>https://nancyyanyu.github.io/posts/paper-bert/</link>
-      <pubDate>Tue, 15 Aug 2023 21:39:56 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/paper-bert/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;BERT is designed to &lt;strong&gt;pre-train deep bidirectional representations from unlabeled text&lt;/strong&gt; by &lt;strong&gt;jointly conditioning on both left and right context in all layers&lt;/strong&gt;. As a result, the &lt;strong&gt;pre-trained BERT model&lt;/strong&gt; can be &lt;strong&gt;fine-tuned with just one additional output layer&lt;/strong&gt; to create state-of-the-art models for a wide range of tasks.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
       <title>A/B Testing Final Project</title>
       <link>https://nancyyanyu.github.io/posts/ab_testing_final_project/</link>
       <pubDate>Fri, 03 Jul 2020 14:28:54 +0000</pubDate>
@@ -105,6 +94,51 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;Pyspark code of &lt;a href=&#34;https://www.coursera.org/learn/big-data-essentials&#34;&gt;Big Data Essentials: HDFS, MapReduce and Spark RDD&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Linear Regression Part II - Potential Problems</title>
+      <link>https://nancyyanyu.github.io/posts/ml-potential_problems/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:13 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-potential_problems/</guid>
+      <description>&lt;h1 id=&#34;qualitative-predictors&#34;&gt;Qualitative Predictors&lt;/h1&gt;
+&lt;h2 id=&#34;predictors-with-only-two-levels&#34;&gt;Predictors with Only Two Levels&lt;/h2&gt;
+&lt;p&gt;Suppose that we wish to investigate differences in credit card balance between
+males and females, ignoring the other variables for the moment. If a
+qualitative predictor (also known as a &lt;strong&gt;factor&lt;/strong&gt;) only has two &lt;strong&gt;levels&lt;/strong&gt;, or possible values, then incorporating it into a regression model is very simple. We simply create an indicator or &lt;strong&gt;dummy variable&lt;/strong&gt; that takes on two possible numerical values.
+
+
+
+
+  
+
+&lt;figure &gt;
+  &lt;img style=&#34;max-width: 100%; width: auto; height: auto;&#34; src=&#34;https://nancyyanyu.github.io/posts/ml-potential_problems/18_hu1d6561f500ae721a7ec01a6f000b787f_275828_300x0_resize_box_3.png&#34; width=&#34;300&#34; height=&#34;208&#34;&gt;
+  &lt;figcaption&gt;
+  &lt;small&gt;
+    
+  &lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;and use this variable as a predictor in the regression equation. This results
+in the model
+
+
+
+
+  
+
+&lt;figure &gt;
+  &lt;img style=&#34;max-width: 100%; width: auto; height: auto;&#34; src=&#34;https://nancyyanyu.github.io/posts/ml-potential_problems/19_hua06852bdb939fc8b72c96de7080965a3_222927_600x0_resize_box_3.png&#34; width=&#34;600&#34; height=&#34;551&#34;&gt;
+  &lt;figcaption&gt;
+  &lt;small&gt;
+    
+  &lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -205,6 +239,115 @@ squares model using the transformed variables.&lt;/p&gt;
 Z_m=\sum_{j=1}^p\phi_{jm}X_j
 \end{align}
 $$&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Linear Discriminant Analysis, ROC &amp; AUC, Confusion Matrix</title>
+      <link>https://nancyyanyu.github.io/posts/ml-linear_discriminant_analysis/ml-linear_discriminant_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-linear_discriminant_analysis/ml-linear_discriminant_analysis/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;LDA V.S. Logistic Regression&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;When the classes are well-separated, the parameter estimates for the
+logistic regression model are surprisingly unstable. Linear discriminant
+analysis does not suffer from this problem.&lt;/li&gt;
+&lt;li&gt;If n is small and the distribution of the predictors X is approximately
+normal in each of the classes, the linear discriminant model is again
+more stable than the logistic regression model.&lt;/li&gt;
+&lt;li&gt;Linear discriminant analysis is popular
+when we have more than two response classes.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Linear Regression Part I - Linear Regression Models</title>
+      <link>https://nancyyanyu.github.io/posts/ml-linear_regression_models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-linear_regression_models/</guid>
+      <description>&lt;h1 id=&#34;simple-linear-regression-models&#34;&gt;Simple Linear Regression Models&lt;/h1&gt;
+&lt;h2 id=&#34;linear-regression-model&#34;&gt;Linear Regression Model&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Form of the linear regression model: &lt;em&gt;$y=\beta_{0}+\beta_{1}X+\epsilon$&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Training data: ($x_1$,$y_1$) &amp;hellip; ($x_N$,$y_N$). Each $x_{i} =(x_{i1},x_{i2},&amp;hellip;,x_{ip})^{T}$ is a vector of feature measurements for the $i$-th case.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Goal: estimate the parameters $β$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Estimation method: &lt;strong&gt;Least Squares&lt;/strong&gt;, we pick the coeﬃcients $β =(β_0,β_1,&amp;hellip;,β_p)^{T}$ to minimize the &lt;strong&gt;residual sum of squares&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Assumptions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Observations $y_i$ are uncorrelated and have constant variance $\sigma^2$;&lt;/li&gt;
+&lt;li&gt;$x_i$ are ﬁxed (non random)&lt;/li&gt;
+&lt;li&gt;The regression function $E(Y |X)$ is linear, or the linear model is a reasonable approximation.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Logistic Regression</title>
+      <link>https://nancyyanyu.github.io/posts/ml-logistic_regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-logistic_regression/</guid>
+      <description>&lt;p&gt;Some notation:
+$$
+\begin{align}
+\theta^Tx=\sum_{i=1}^n \theta_ix_i \tag{weighted sum} \
+\sigma(z)=\frac{1}{1+e^{-z}} \tag{sigmoid function}
+\end{align}
+$$&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Model Selection and Regularization (Ridge &amp; Lasso)</title>
+      <link>https://nancyyanyu.github.io/posts/ml-model-selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-model-selection/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Subset Selection/Adjusted $R^2$/Ridge/Lasso/SVD&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Resampling Methods - Cross Validation, Bootstrap</title>
+      <link>https://nancyyanyu.github.io/posts/ml-resampling-methods-cross-validation-bootstrap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-resampling-methods-cross-validation-bootstrap/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Resampling methods&lt;/strong&gt;:involve repeatedly drawing samples from a training set and refitting a mode of interest on each sample in order to obtain additional information about the fitted model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;model assessment&lt;/strong&gt;： The process of evaluating a model’s performance&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;model selection&lt;/strong&gt;：The process of selecting the proper level of flexibility for a model&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;cross-validation&lt;/strong&gt;: can be used to estimate the test error associated with a given statistical learning method in order to evaluate its performance, or to select the appropriate level of flexibility.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;bootstrap&lt;/strong&gt;:provide a measure of accuracy of a parameter estimate or of a given selection statistical learning method.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: SVM</title>
+      <link>https://nancyyanyu.github.io/posts/ml-svm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-svm/</guid>
+      <description>&lt;h1 id=&#34;maximal-margin-classifier&#34;&gt;Maximal Margin Classifier&lt;/h1&gt;
+&lt;h2 id=&#34;what-is-a-hyperplane&#34;&gt;What Is a Hyperplane?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Hyperplane&lt;/strong&gt;: In a p-dimensional space, a hyperplane is a flat affine subspace of dimension $p − 1$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. in two dimensions, a hyperplane is a flat one-dimensional subspace—in other words, a line.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Mathematical definition of a hyperplane&lt;/strong&gt;:
+$$
+\beta_0+\beta_1X_1+\beta_2X_2,&amp;hellip;+\beta_pX_p=0, \quad (9.1)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Any $X = (X_1,X_2,…X_p)^T$ for which (9.1) holds is a point on the hyperplane.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

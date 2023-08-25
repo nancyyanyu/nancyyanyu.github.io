@@ -1,6 +1,6 @@
 ---
 title: "Study Note: Comparing Logistic Regression, LDA, QDA, and KNN"
-date: 2019/06/10 00:00:11
+date: 2019-06-10 14:49:45
 categories: Machine Learning
 math: true
 tags:
@@ -72,7 +72,8 @@ QDA serves as a compromise between KNN, LDA and logistic regression
 
 QDA serves as a compromise between the non-parametric KNN method and the linear LDA and logistic regression approaches. Since QDA assumes a quadratic decision boundary, it can accurately model a wider range of problems than can the linear methods. Though not as flexible as KNN, QDA can perform better in the presence of a _limited number of training observations_ because it does make some assumptions about the form of the decision boundary.
 
-![](./images/17.png)
+{{< imgproc 17.png Resize "600x" />}}
+
 
 **Scenario 1**: - 20 training observations in each of two classes. The observations within each class were uncorrelated random normal variables with a different mean in each class. - LDA performed well in this setting. KNN performed poorly because it paid a price in terms of variance that was not offset by a reduction in bias.
 

@@ -67,16 +67,5 @@
 &lt;/blockquote&gt;</description>
     </item>
     
-    <item>
-      <title>Paper Note: BERT</title>
-      <link>https://nancyyanyu.github.io/posts/paper-bert/</link>
-      <pubDate>Tue, 15 Aug 2023 21:39:56 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/paper-bert/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;BERT is designed to &lt;strong&gt;pre-train deep bidirectional representations from unlabeled text&lt;/strong&gt; by &lt;strong&gt;jointly conditioning on both left and right context in all layers&lt;/strong&gt;. As a result, the &lt;strong&gt;pre-trained BERT model&lt;/strong&gt; can be &lt;strong&gt;fine-tuned with just one additional output layer&lt;/strong&gt; to create state-of-the-art models for a wide range of tasks.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
   </channel>
 </rss>
