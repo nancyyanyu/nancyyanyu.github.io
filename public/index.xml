@@ -11,7 +11,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 22:36:17 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Aug 2023 21:39:56 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Note: ALBEF</title>
+      <link>https://nancyyanyu.github.io/posts/paper-albef/</link>
+      <pubDate>Thu, 24 Aug 2023 21:39:56 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-albef/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Contribution&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To enable more grounded vision and language representation learning, introduce a &lt;strong&gt;contrastive loss&lt;/strong&gt; (from CLIP) to ALign the image and text representations BEfore Fusing (&lt;strong&gt;ALBEF&lt;/strong&gt;) them through cross-modal attention, which&lt;/li&gt;
+&lt;li&gt;To improve learning from noisy web data, propose &lt;strong&gt;momentum distillation&lt;/strong&gt;, a self-training method which learns from &lt;em&gt;&lt;strong&gt;pseudo-targets&lt;/strong&gt;&lt;/em&gt; produced by a &lt;strong&gt;momentum model&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
     <item>
       <title>Paper Note: CLIP</title>
       <link>https://nancyyanyu.github.io/posts/paper-clip/</link>
@@ -68,6 +81,17 @@
     </item>
     
     <item>
+      <title>Paper Note: BERT</title>
+      <link>https://nancyyanyu.github.io/posts/paper-bert/</link>
+      <pubDate>Tue, 15 Aug 2023 21:39:56 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-bert/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;BERT is designed to &lt;strong&gt;pre-train deep bidirectional representations from unlabeled text&lt;/strong&gt; by &lt;strong&gt;jointly conditioning on both left and right context in all layers&lt;/strong&gt;. As a result, the &lt;strong&gt;pre-trained BERT model&lt;/strong&gt; can be &lt;strong&gt;fine-tuned with just one additional output layer&lt;/strong&gt; to create state-of-the-art models for a wide range of tasks.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
       <title>A/B Testing Final Project</title>
       <link>https://nancyyanyu.github.io/posts/ab_testing_final_project/</link>
       <pubDate>Fri, 03 Jul 2020 14:28:54 +0000</pubDate>
@@ -94,6 +118,155 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;Pyspark code of &lt;a href=&#34;https://www.coursera.org/learn/big-data-essentials&#34;&gt;Big Data Essentials: HDFS, MapReduce and Spark RDD&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Assessing Model Accuracy</title>
+      <link>https://nancyyanyu.github.io/posts/ml-assessing-model-accuracy/</link>
+      <pubDate>Mon, 17 Jun 2019 14:49:45 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-assessing-model-accuracy/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;MSE/Bias-Variance Trade-Off/K-Nearest Neighbors&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Clustering</title>
+      <link>https://nancyyanyu.github.io/posts/ml-clustering/</link>
+      <pubDate>Sat, 15 Jun 2019 14:49:45 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-clustering/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;K-Means Clustering/Hierarchical Clustering Algorithm&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Dimension Reduction - PCA, PCR</title>
+      <link>https://nancyyanyu.github.io/posts/ml-dimension_reduction-pca/</link>
+      <pubDate>Fri, 14 Jun 2019 14:49:45 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-dimension_reduction-pca/</guid>
+      <description>&lt;h1 id=&#34;dimension-reduction-methods&#34;&gt;Dimension Reduction Methods&lt;/h1&gt;
+&lt;p&gt;Subset selection and shrinkage methods all use the original predictors, X1,X2, . . . , Xp.&lt;/p&gt;
+&lt;p&gt;Dimension Reduction Methods &lt;em&gt;&lt;strong&gt;transform&lt;/strong&gt;&lt;/em&gt; the predictors and then fit a least
+squares model using the transformed variables.&lt;/p&gt;
+&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
+&lt;p&gt;Let $Z_1,Z_2, . . . ,Z_M$ represent $M &amp;lt; p$ linear combinations of our original $p$ predictors. That is,&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align}
+Z_m=\sum_{j=1}^p\phi_{jm}X_j
+\end{align}
+$$&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: SVM</title>
+      <link>https://nancyyanyu.github.io/posts/ml-svm/</link>
+      <pubDate>Wed, 12 Jun 2019 01:00:13 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-svm/</guid>
+      <description>&lt;h1 id=&#34;maximal-margin-classifier&#34;&gt;Maximal Margin Classifier&lt;/h1&gt;
+&lt;h2 id=&#34;what-is-a-hyperplane&#34;&gt;What Is a Hyperplane?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Hyperplane&lt;/strong&gt;: In a p-dimensional space, a hyperplane is a flat affine subspace of dimension $p − 1$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. in two dimensions, a hyperplane is a flat one-dimensional subspace—in other words, a line.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Mathematical definition of a hyperplane&lt;/strong&gt;:
+$$
+\beta_0+\beta_1X_1+\beta_2X_2,&amp;hellip;+\beta_pX_p=0, \quad (9.1)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Any $X = (X_1,X_2,…X_p)^T$ for which (9.1) holds is a point on the hyperplane.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Resampling Methods - Cross Validation, Bootstrap</title>
+      <link>https://nancyyanyu.github.io/posts/ml-resampling-methods-cross-validation-bootstrap/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:18 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-resampling-methods-cross-validation-bootstrap/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Resampling methods&lt;/strong&gt;:involve repeatedly drawing samples from a training set and refitting a mode of interest on each sample in order to obtain additional information about the fitted model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;model assessment&lt;/strong&gt;：the process of evaluating a model’s performance&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;model selection&lt;/strong&gt;：the process of selecting the proper level of flexibility for a model&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;cross-validation&lt;/strong&gt;: can be used to estimate the test error associated with a given statistical learning method in order to evaluate its performance, or to select the appropriate level of flexibility.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;bootstrap&lt;/strong&gt;:provide a measure of accuracy of a parameter estimate or of a given selection statistical learning method.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Model Selection and Regularization (Ridge &amp; Lasso)</title>
+      <link>https://nancyyanyu.github.io/posts/ml-model-selection/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:14 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-model-selection/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Subset Selection/Adjusted $R^2$/Ridge/Lasso/SVD&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Comparing Logistic Regression, LDA, QDA, and KNN</title>
+      <link>https://nancyyanyu.github.io/posts/ml-comparing-logistic-regression-lda-qda-and-knn/</link>
+      <pubDate>Mon, 10 Jun 2019 14:49:45 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-comparing-logistic-regression-lda-qda-and-knn/</guid>
+      <description>&lt;h2 id=&#34;logistic-regression-and-lda-methods-are-closely-connected&#34;&gt;Logistic regression and LDA methods are closely connected.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Setting&lt;/strong&gt;: Consider the two-class setting with \(p = 1\) predictor, and let \(p_1(x)\) and \(p_2(x) = 1−p_1(x)\) be the probabilities that the observation \(X = x\) belongs to class 1 and class 2, respectively.&lt;/p&gt;
+&lt;p&gt;In LDA, from&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align} p_k(x)=\frac{\pi_k \frac{1}{\sqrt{2\pi}\sigma}\exp{\left( -\frac{1}{2\sigma^2}(x-\mu_k)^2 \right)}}{\sum_{l=1}^K\pi_l\frac{1}{\sqrt{2\pi}\sigma}\exp{\left( -\frac{1}{2\sigma^2}(x-\mu_l)^2 \right)}} \end{align}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align} \delta_k(x)=x\frac{\mu_k}{\sigma^2}-\frac{\mu_k^2}{2\sigma^2}+\log(\pi_k) \end{align}
+$$
+The &lt;strong&gt;log odds&lt;/strong&gt; is given by&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align}\log{\frac{p_1(x)}{1-p_1(x)}}=\log{\frac{p_1(x)}{p_2(x)}}=c_0+c_1x \end{align}
+$$
+where c0 and c1 are functions of μ1, μ2, and σ2.&lt;/p&gt;
+&lt;p&gt;In Logistic Regression,&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align} \log{\frac{p_1}{1-p_1}}=\beta_0+\beta_1x \end{align}
+$$&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Linear Discriminant Analysis, ROC &amp; AUC, Confusion Matrix</title>
+      <link>https://nancyyanyu.github.io/posts/ml-linear_discriminant_analysis/</link>
+      <pubDate>Sun, 09 Jun 2019 14:49:45 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-linear_discriminant_analysis/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;LDA V.S. Logistic Regression&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;When the classes are well-separated, the parameter estimates for the
+logistic regression model are surprisingly unstable. Linear discriminant
+analysis does not suffer from this problem.&lt;/li&gt;
+&lt;li&gt;If n is small and the distribution of the predictors X is approximately
+normal in each of the classes, the linear discriminant model is again
+more stable than the logistic regression model.&lt;/li&gt;
+&lt;li&gt;Linear discriminant analysis is popular
+when we have more than two response classes.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study Note: Bias, Variance and Model Complexity</title>
+      <link>https://nancyyanyu.github.io/posts/ml-bias-variance/</link>
+      <pubDate>Sat, 08 Jun 2019 14:49:45 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-bias-variance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study Note: Logistic Regression</title>
+      <link>https://nancyyanyu.github.io/posts/ml-logistic_regression/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:13 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/ml-logistic_regression/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -166,101 +339,6 @@ in the model
     
     
     <item>
-      <title>Study Note: Assessing Model Accuracy</title>
-      <link>https://nancyyanyu.github.io/posts/ml-assessing-model-accuracy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-assessing-model-accuracy/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;MSE/Bias-Variance Trade-Off/K-Nearest Neighbors&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>Study Note: Bias, Variance and Model Complexity</title>
-      <link>https://nancyyanyu.github.io/posts/ml-bias-variance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-bias-variance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Study Note: Clustering</title>
-      <link>https://nancyyanyu.github.io/posts/ml-clustering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-clustering/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;K-Means Clustering/Hierarchical Clustering Algorithm&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>Study Note: Comparing Logistic Regression, LDA, QDA, and KNN</title>
-      <link>https://nancyyanyu.github.io/posts/ml-comparing-logistic-regression-lda-qda-and-knn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-comparing-logistic-regression-lda-qda-and-knn/</guid>
-      <description>&lt;h2 id=&#34;logistic-regression-and-lda-methods-are-closely-connected&#34;&gt;Logistic regression and LDA methods are closely connected.&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Setting&lt;/strong&gt;: Consider the two-class setting with \(p = 1\) predictor, and let \(p_1(x)\) and \(p_2(x) = 1−p_1(x)\) be the probabilities that the observation \(X = x\) belongs to class 1 and class 2, respectively.&lt;/p&gt;
-&lt;p&gt;In LDA, from&lt;/p&gt;
-&lt;p&gt;$$
-\begin{align} p_k(x)=\frac{\pi_k \frac{1}{\sqrt{2\pi}\sigma}\exp{\left( -\frac{1}{2\sigma^2}(x-\mu_k)^2 \right)}}{\sum_{l=1}^K\pi_l\frac{1}{\sqrt{2\pi}\sigma}\exp{\left( -\frac{1}{2\sigma^2}(x-\mu_l)^2 \right)}} \end{align}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\begin{align} \delta_k(x)=x\frac{\mu_k}{\sigma^2}-\frac{\mu_k^2}{2\sigma^2}+\log(\pi_k) \end{align}
-$$
-The &lt;strong&gt;log odds&lt;/strong&gt; is given by&lt;/p&gt;
-&lt;p&gt;$$
-\begin{align}\log{\frac{p_1(x)}{1-p_1(x)}}=\log{\frac{p_1(x)}{p_2(x)}}=c_0+c_1x \end{align}
-$$
-where c0 and c1 are functions of μ1, μ2, and σ2.&lt;/p&gt;
-&lt;p&gt;In Logistic Regression,&lt;/p&gt;
-&lt;p&gt;$$
-\begin{align} \log{\frac{p_1}{1-p_1}}=\beta_0+\beta_1x \end{align}
-$$&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Study Note: Dimension Reduction - PCA, PCR</title>
-      <link>https://nancyyanyu.github.io/posts/ml-dimension_reduction-pca/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-dimension_reduction-pca/</guid>
-      <description>&lt;h1 id=&#34;dimension-reduction-methods&#34;&gt;Dimension Reduction Methods&lt;/h1&gt;
-&lt;p&gt;Subset selection and shrinkage methods all use the original predictors, X1,X2, . . . , Xp.&lt;/p&gt;
-&lt;p&gt;Dimension Reduction Methods &lt;em&gt;&lt;strong&gt;transform&lt;/strong&gt;&lt;/em&gt; the predictors and then fit a least
-squares model using the transformed variables.&lt;/p&gt;
-&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
-&lt;p&gt;Let $Z_1,Z_2, . . . ,Z_M$ represent $M &amp;lt; p$ linear combinations of our original $p$ predictors. That is,&lt;/p&gt;
-&lt;p&gt;$$
-\begin{align}
-Z_m=\sum_{j=1}^p\phi_{jm}X_j
-\end{align}
-$$&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Study Note: Linear Discriminant Analysis, ROC &amp; AUC, Confusion Matrix</title>
-      <link>https://nancyyanyu.github.io/posts/ml-linear_discriminant_analysis/ml-linear_discriminant_analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-linear_discriminant_analysis/ml-linear_discriminant_analysis/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;LDA V.S. Logistic Regression&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;When the classes are well-separated, the parameter estimates for the
-logistic regression model are surprisingly unstable. Linear discriminant
-analysis does not suffer from this problem.&lt;/li&gt;
-&lt;li&gt;If n is small and the distribution of the predictors X is approximately
-normal in each of the classes, the linear discriminant model is again
-more stable than the logistic regression model.&lt;/li&gt;
-&lt;li&gt;Linear discriminant analysis is popular
-when we have more than two response classes.&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
-    
-    <item>
       <title>Study Note: Linear Regression Part I - Linear Regression Models</title>
       <link>https://nancyyanyu.github.io/posts/ml-linear_regression_models/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -287,66 +365,6 @@ when we have more than two response classes.&lt;/li&gt;
 &lt;li&gt;Observations $y_i$ are uncorrelated and have constant variance $\sigma^2$;&lt;/li&gt;
 &lt;li&gt;$x_i$ are ﬁxed (non random)&lt;/li&gt;
 &lt;li&gt;The regression function $E(Y |X)$ is linear, or the linear model is a reasonable approximation.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Study Note: Logistic Regression</title>
-      <link>https://nancyyanyu.github.io/posts/ml-logistic_regression/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-logistic_regression/</guid>
-      <description>&lt;p&gt;Some notation:
-$$
-\begin{align}
-\theta^Tx=\sum_{i=1}^n \theta_ix_i \tag{weighted sum} \
-\sigma(z)=\frac{1}{1+e^{-z}} \tag{sigmoid function}
-\end{align}
-$$&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Study Note: Model Selection and Regularization (Ridge &amp; Lasso)</title>
-      <link>https://nancyyanyu.github.io/posts/ml-model-selection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-model-selection/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Subset Selection/Adjusted $R^2$/Ridge/Lasso/SVD&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>Study Note: Resampling Methods - Cross Validation, Bootstrap</title>
-      <link>https://nancyyanyu.github.io/posts/ml-resampling-methods-cross-validation-bootstrap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-resampling-methods-cross-validation-bootstrap/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Resampling methods&lt;/strong&gt;:involve repeatedly drawing samples from a training set and refitting a mode of interest on each sample in order to obtain additional information about the fitted model.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;model assessment&lt;/strong&gt;： The process of evaluating a model’s performance&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;model selection&lt;/strong&gt;：The process of selecting the proper level of flexibility for a model&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;cross-validation&lt;/strong&gt;: can be used to estimate the test error associated with a given statistical learning method in order to evaluate its performance, or to select the appropriate level of flexibility.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;bootstrap&lt;/strong&gt;:provide a measure of accuracy of a parameter estimate or of a given selection statistical learning method.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Study Note: SVM</title>
-      <link>https://nancyyanyu.github.io/posts/ml-svm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-svm/</guid>
-      <description>&lt;h1 id=&#34;maximal-margin-classifier&#34;&gt;Maximal Margin Classifier&lt;/h1&gt;
-&lt;h2 id=&#34;what-is-a-hyperplane&#34;&gt;What Is a Hyperplane?&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Hyperplane&lt;/strong&gt;: In a p-dimensional space, a hyperplane is a flat affine subspace of dimension $p − 1$.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;e.g. in two dimensions, a hyperplane is a flat one-dimensional subspace—in other words, a line.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Mathematical definition of a hyperplane&lt;/strong&gt;:
-$$
-\beta_0+\beta_1X_1+\beta_2X_2,&amp;hellip;+\beta_pX_p=0, \quad (9.1)
-$$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Any $X = (X_1,X_2,…X_p)^T$ for which (9.1) holds is a point on the hyperplane.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     

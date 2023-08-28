@@ -11,7 +11,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 22:36:17 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Aug 2023 21:39:56 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Note: ALBEF</title>
+      <link>https://nancyyanyu.github.io/posts/paper-albef/</link>
+      <pubDate>Thu, 24 Aug 2023 21:39:56 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-albef/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Contribution&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To enable more grounded vision and language representation learning, introduce a &lt;strong&gt;contrastive loss&lt;/strong&gt; (from CLIP) to ALign the image and text representations BEfore Fusing (&lt;strong&gt;ALBEF&lt;/strong&gt;) them through cross-modal attention, which&lt;/li&gt;
+&lt;li&gt;To improve learning from noisy web data, propose &lt;strong&gt;momentum distillation&lt;/strong&gt;, a self-training method which learns from &lt;em&gt;&lt;strong&gt;pseudo-targets&lt;/strong&gt;&lt;/em&gt; produced by a &lt;strong&gt;momentum model&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
     <item>
       <title>Paper Note: CLIP</title>
       <link>https://nancyyanyu.github.io/posts/paper-clip/</link>
@@ -64,6 +77,17 @@
       <guid>https://nancyyanyu.github.io/posts/paper-transformer/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;The Transformer, the first sequence transduction model based entirely on attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Note: BERT</title>
+      <link>https://nancyyanyu.github.io/posts/paper-bert/</link>
+      <pubDate>Tue, 15 Aug 2023 21:39:56 +0000</pubDate>
+      
+      <guid>https://nancyyanyu.github.io/posts/paper-bert/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;BERT is designed to &lt;strong&gt;pre-train deep bidirectional representations from unlabeled text&lt;/strong&gt; by &lt;strong&gt;jointly conditioning on both left and right context in all layers&lt;/strong&gt;. As a result, the &lt;strong&gt;pre-trained BERT model&lt;/strong&gt; can be &lt;strong&gt;fine-tuned with just one additional output layer&lt;/strong&gt; to create state-of-the-art models for a wide range of tasks.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     

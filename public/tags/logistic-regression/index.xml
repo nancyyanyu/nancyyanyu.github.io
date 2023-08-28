@@ -10,20 +10,15 @@
       <link>https://nancyyanyu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://nancyyanyu.github.io/tags/logistic-regression/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Jun 2019 00:00:13 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/tags/logistic-regression/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Study Note: Logistic Regression</title>
       <link>https://nancyyanyu.github.io/posts/ml-logistic_regression/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2019 00:00:13 +0000</pubDate>
       
       <guid>https://nancyyanyu.github.io/posts/ml-logistic_regression/</guid>
-      <description>&lt;p&gt;Some notation:
-$$
-\begin{align}
-\theta^Tx=\sum_{i=1}^n \theta_ix_i \tag{weighted sum} \
-\sigma(z)=\frac{1}{1+e^{-z}} \tag{sigmoid function}
-\end{align}
-$$&lt;/p&gt;</description>
+      <description></description>
     </item>
     
   </channel>

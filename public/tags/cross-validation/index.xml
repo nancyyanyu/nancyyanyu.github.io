@@ -10,16 +10,17 @@
       <link>https://nancyyanyu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://nancyyanyu.github.io/tags/cross-validation/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Jun 2019 00:00:18 +0000</lastBuildDate><atom:link href="https://nancyyanyu.github.io/tags/cross-validation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Study Note: Resampling Methods - Cross Validation, Bootstrap</title>
       <link>https://nancyyanyu.github.io/posts/ml-resampling-methods-cross-validation-bootstrap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Jun 2019 00:00:18 +0000</pubDate>
       
       <guid>https://nancyyanyu.github.io/posts/ml-resampling-methods-cross-validation-bootstrap/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Resampling methods&lt;/strong&gt;:involve repeatedly drawing samples from a training set and refitting a mode of interest on each sample in order to obtain additional information about the fitted model.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;model assessment&lt;/strong&gt;： The process of evaluating a model’s performance&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;model selection&lt;/strong&gt;：The process of selecting the proper level of flexibility for a model&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;model assessment&lt;/strong&gt;：the process of evaluating a model’s performance&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;model selection&lt;/strong&gt;：the process of selecting the proper level of flexibility for a model&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;cross-validation&lt;/strong&gt;: can be used to estimate the test error associated with a given statistical learning method in order to evaluate its performance, or to select the appropriate level of flexibility.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;bootstrap&lt;/strong&gt;:provide a measure of accuracy of a parameter estimate or of a given selection statistical learning method.&lt;/p&gt;</description>
     </item>
