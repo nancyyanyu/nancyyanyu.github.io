@@ -13,15 +13,6 @@ date: 2023-08-15 22:36:17
 > The simple pre-training task of **predicting which caption goes with which image** is an efficient and scalable way to learn SOTA image representations from scratch. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling **zero-shot transfer** of the model to downstream tasks.
 
 <!--more-->
-{{< math.inline >}}
-
-<p>
-Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
-</p>
-{{</ math.inline >}}
-
-Block math:
-
 
 $$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
