@@ -18,6 +18,7 @@ date: 2023-08-15 21:54:35
 
 {{< imgproc Untitled Resize "500x" />}}
 
+
 - **Encoder and Decoder Stacks**
     - **Encoder**: takes a sequence of symbols $(x_1,…,x_n)$ as input and returns a sequence of continuous representations $z = (z_1,…,z_n)$.
         - It consists of 6 identical layers, each with two sub-layers:
