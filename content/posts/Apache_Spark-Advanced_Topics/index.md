@@ -1,6 +1,6 @@
 ---
 title: 'Apache Spark: Advanced Topics'
-date: '2019–06–27 00:00:18'
+date: 2019–06–27 00:00:18
 categories: Big Data
 math: true
 tags:
