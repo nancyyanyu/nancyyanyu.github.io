@@ -14,9 +14,6 @@ date: 2023-08-15 22:36:17
 
 <!--more-->
 
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
 
 # Learning Transferable Visual Models From Natural Language Supervision
 
@@ -40,7 +37,7 @@ $$
 
 ## **Selecting an Efficient Pre-Training Method - Contrastive learning**
 
-- Given a batch of N (image, text) pairs, CLIP is trained to predict which of the $N\times N$ possible (image, text) pairings across a batch actually occurred.
+- Given a batch of N (image, text) pairs, CLIP is trained to predict which of the $N x N$ possible (image, text) pairings across a batch actually occurred.
 - CLIP learns a **multi-modal embedding** space by jointly training an image encoder and text encoder to
     - Maximize the **cosine similarity** of the image and text embeddings of the $N$ real pairs in the batch;
     - Minimize the **cosine similarity** of the embeddings of the $N^2 - N$ incorrect pairings.

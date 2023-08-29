@@ -143,17 +143,6 @@
     </item>
     
     <item>
-      <title>Study Note: Decision Trees, Random Forest, and Boosting</title>
-      <link>https://nancyyanyu.github.io/posts/ml-decision-trees-random-forest-and-boosting/</link>
-      <pubDate>Sat, 15 Jun 2019 14:49:45 +0000</pubDate>
-      
-      <guid>https://nancyyanyu.github.io/posts/ml-decision-trees-random-forest-and-boosting/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Descision Tree/Recursive Binary Splitting/Classification Trees/Gini index/Bagging/Boosting/Random Forest&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
       <title>Study Note: Dimension Reduction - PCA, PCR</title>
       <link>https://nancyyanyu.github.io/posts/ml-dimension_reduction-pca/</link>
       <pubDate>Fri, 14 Jun 2019 14:49:45 +0000</pubDate>
