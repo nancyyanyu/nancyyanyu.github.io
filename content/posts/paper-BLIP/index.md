@@ -36,7 +36,7 @@ BLIP pre-trains a multimodal mixture of encoder-decoder model using a dataset bo
 layer between the **self-attention** (SA) layer and the **feed forward network** (FFN) for each transformer block of the text encoder.
 - **Image-grounded text decoder**: replaces the **bidirectional self-attention** layers in the image-grounded text encoder with **causal self-attention** layers.
 
-{{< imgproc Untitled1 Resize "2000x" />}}
+{{< imgproc Untitled1 Resize "1200x" />}}
 (前三个encoders加起来就是Albef的archiecture+VLMO的参数共享，共享了ffn和bi self-att)
 
 **3 pre-training objectives:**
@@ -56,7 +56,7 @@ The text encoder and text decoder **share all parameters** except for the ***SA 
 - The *filter* is an image-grounded text encoder; finetuned with the **ITC** and **ITM** objectives to learn whether a text matches an image.
 
 Filtered image-text pairs + human-annotated pairs → a new dataset → pre-train a new model.
-{{< imgproc Untitled2 Resize "2000x" />}}
+{{< imgproc Untitled2 Resize "1800x" />}}
 
 
 
