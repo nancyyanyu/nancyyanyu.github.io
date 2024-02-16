@@ -56,7 +56,7 @@ The text encoder and text decoder **share all parameters** except for the ***SA 
 - The *filter* is an image-grounded text encoder; finetuned with the **ITC** and **ITM** objectives to learn whether a text matches an image.
 
 Filtered image-text pairs + human-annotated pairs → a new dataset → pre-train a new model.
-{{< imgproc Untitled2 Resize "1500x" />}}
+{{< imgproc Untitled2 Resize "2000x" />}}
 
 
 
