@@ -24,7 +24,7 @@ BLIP pre-trains a multimodal mixture of encoder-decoder model using a dataset bo
 
 - **Multimodal mixture of Encoder-Decoder (MED)**: a *unified* model with both understanding and generation capabilities.
 - **Captioning and Filtering (CapFilt):** dataset bootstrapping method for learning from noisy image-text pairs.
-    {{< imgproc Untitled Resize "800x" />}}
+    {{< imgproc Untitled Resize "1000x" />}}
     
     - a **captioner**: produce synthetic captions given web images
     - a **filter**: remove noisy captions from both the original web texts and the synthetic texts.
@@ -36,7 +36,7 @@ BLIP pre-trains a multimodal mixture of encoder-decoder model using a dataset bo
 layer between the **self-attention** (SA) layer and the **feed forward network** (FFN) for each transformer block of the text encoder.
 - **Image-grounded text decoder**: replaces the **bidirectional self-attention** layers in the image-grounded text encoder with **causal self-attention** layers.
 
-{{< imgproc Untitled1 Resize "800x" />}}
+{{< imgproc Untitled1 Resize "1200x" />}}
 (前三个encoders加起来就是Albef的archiecture+VLMO的参数共享，共享了ffn和bi self-att)
 
 **3 pre-training objectives:**
@@ -56,7 +56,7 @@ The text encoder and text decoder **share all parameters** except for the ***SA 
 - The *filter* is an image-grounded text encoder; finetuned with the **ITC** and **ITM** objectives to learn whether a text matches an image.
 
 Filtered image-text pairs + human-annotated pairs → a new dataset → pre-train a new model.
-{{< imgproc Untitled2 Resize "800x" />}}
+{{< imgproc Untitled2 Resize "1500x" />}}
 
 
 
