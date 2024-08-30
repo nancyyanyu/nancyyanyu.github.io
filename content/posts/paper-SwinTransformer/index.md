@@ -1,6 +1,6 @@
 ---
 title: "Paper Note: Swin Transformer"
-date: 2023-08-15 22:20:38
+date: 2023-08-10 22:20:38
 categories: Machine Learning
 math: true
 tags:

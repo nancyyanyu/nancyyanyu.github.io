@@ -6,7 +6,7 @@ tags:
   - Paper
   - NLP
 comments: true
-date: 2023-08-15 21:54:35
+date: 2023-02-01 21:54:35
 ---
 
 > The Transformer, the first sequence transduction model based entirely on attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention.

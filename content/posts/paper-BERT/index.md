@@ -1,6 +1,6 @@
 ---
 title: "Paper Note: BERT"
-date: 2023-08-15 21:39:56
+date: 2022-12-02 21:39:56
 categories: Machine Learning
 math: true
 tags: 
