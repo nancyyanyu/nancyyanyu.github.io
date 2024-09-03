@@ -58,7 +58,7 @@ Quantized Low-Rank Adaptation (QLoRA) optimizes the standard LoRA approach by in
 
  
 
-DoRA 
+## DoRA 
 
 Weight-Decomposed Low-Rank Adaptation (DoRA) improves on the standard LoRA approach by decomposing the pre-trained weight into its magnitude and directional components, then fine-tunes both. It outperforms LoRA on various NLP, multi-modal tasks without any additional inference latency. 
 

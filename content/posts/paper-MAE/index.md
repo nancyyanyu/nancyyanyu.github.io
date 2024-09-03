@@ -1,6 +1,6 @@
 ---
 title: "Paper Note: Masked autoencoders(MAE) (very short)"
-date: 2023-07-01 22:19:31
+date: 2023-07-10 22:19:31
 categories: Machine Learning
 math: true
 tags:
