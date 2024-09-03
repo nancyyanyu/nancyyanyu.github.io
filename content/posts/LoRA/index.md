@@ -89,4 +89,4 @@ In this blog post, we reviewed the LoRA method and several of its variants. The 
 
 - Liu, Shih-Yang, et al. "Dora: Weight-decomposed low-rank adaptation." arXiv preprint arXiv:2402.09353 (2024). 
 
-https://huggingface.co/docs/peft/en/developer_guides/quantization 
+- https://huggingface.co/docs/peft/en/developer_guides/quantization 
