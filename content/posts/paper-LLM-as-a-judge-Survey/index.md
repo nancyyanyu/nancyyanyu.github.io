@@ -104,7 +104,7 @@ More resources about their line of work:
         - **(Themis):**  an LLM dedicated to NLG evaluation, which has been trained with designed multi-perspective consistency verification and rating-oriented preference alignment methods.
         - **(PORTIA):** an alignment-based approach designed to mimic human comparison behavior to calibrate position bias in an effective manner.
 - **Prompting:** Strategies for improving judgment accuracy and mitigating bias at the inference stage.
-    {{< imgproc p3 Resize "500x" />}}
+    {{< imgproc p3 Resize "700x" />}}
 
     - **Swapping Operation:** mitigate positional bias in LLM judgments.
         
