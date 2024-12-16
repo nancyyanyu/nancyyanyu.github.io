@@ -1,5 +1,5 @@
 ---
-title: 'Paper Note: LLM-as-a-judge survey'
+title: 'Paper Note: LLM-as-a-judge Survey'
 categories: LLM
 math: true
 tags:
@@ -10,8 +10,8 @@ comments: true
 date: 2024-12-15 21:04:17
 ---
 
-> This week, I want to resume sharing my paper reading notes. The paper I read this weenkend is "**From Generation to Judgment: Opportunities and Challenges of LLM-as-a-judge**" by Li, Dawei, et al. (2024), as it's particularly relevant to my current work. For the first time, I tried out Google’s NotebookLM to help with my note-taking - It's game-changing!
-> My attention has recently shifted from multimodality in the Search domain to LLMs/chatbots. Hopefully, I can find more time to keep reading, learning, and, of course, sharing.
+> This week, I want to resume sharing my paper reading notes. The paper I read this weenkend is "**From Generation to Judgment: Opportunities and Challenges of LLM-as-a-judge**" by Li, Dawei, et al. (2024), as it's particularly relevant to my current work. For the first time, I tried out Google’s NotebookLM to help with my note-taking –– It's game-changing!
+> BTW, my attention has recently shifted from multimodality in the Search domain to LLMs/chatbots. Hopefully, I can find more time to keep reading, learning, and, of course, sharing.
 
 More resources about their line of work:
 - LLM-as-a-judge: https://llm-as-a-judge.github.io/
@@ -20,7 +20,7 @@ More resources about their line of work:
 
 <!--more-->
 
-{{< imgproc p1 Resize "500x" />}}
+{{< imgproc p1 Resize "1000x" />}}
 
 ## **Attributes of Judgment**
 
