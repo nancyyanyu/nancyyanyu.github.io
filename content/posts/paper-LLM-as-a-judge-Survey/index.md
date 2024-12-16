@@ -334,3 +334,8 @@ More resources about their line of work:
     
     - **LLMs as Sample Selectors:** Using judge LLMs to choose a subset of samples for human evaluation based on specific criteria (e.g., representativeness or difficulty).
     - **Integrating Human-in-the-Loop Solutions:** Learning from solutions in other fields, such as data annotation and active learning.
+
+
+-------
+**Reference**:
+- Li, Dawei, et al. "From Generation to Judgment: Opportunities and Challenges of LLM-as-a-judge." arXiv preprint arXiv:2411.16594 (2024).
