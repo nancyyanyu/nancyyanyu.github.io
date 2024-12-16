@@ -20,7 +20,7 @@ More resources about their line of work:
 
 <!--more-->
 
-{{< imgproc p1 Resize "1000x" />}}
+{{< imgproc p1 Resize "1500x" />}}
 
 ## **Attributes of Judgment**
 
@@ -104,6 +104,8 @@ More resources about their line of work:
         - **(Themis):**  an LLM dedicated to NLG evaluation, which has been trained with designed multi-perspective consistency verification and rating-oriented preference alignment methods.
         - **(PORTIA):** an alignment-based approach designed to mimic human comparison behavior to calibrate position bias in an effective manner.
 - **Prompting:** Strategies for improving judgment accuracy and mitigating bias at the inference stage.
+    {{< imgproc p3 Resize "500x" />}}
+
     - **Swapping Operation:** mitigate positional bias in LLM judgments.
         
         > LLM- based judges are sensitive to the positions of candidates, and the quality ranking of candidate responses can be easily manipulated by merely alter- ing their order in the context
@@ -153,6 +155,7 @@ More resources about their line of work:
     
 
 ## **Application**
+{{< imgproc p2 Resize "500x" />}}
 
 - **Evaluation:** Traditional NLP evaluation relies on predefined metrics, such as BLEU, ROUGH, and BERTScore, to assess machine-generated text quality. However, these methods often fall short in capturing nuanced semantic attributes. **LLM-as-a-judge enables human-like qual- itative evaluations rather than simple quantitative comparisons of how well machine-generated out- puts match the ground truth.**
     - **Open-Ended Generation Tasks**: tasks where multiple safe, accurate, and contextually relevant responses exist, such as dialogue generation, summarization, and creative writing.
